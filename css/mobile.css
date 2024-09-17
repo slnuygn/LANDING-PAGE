@@ -1,0 +1,19 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 80px;
+}
+
+#videos .items {
+    flex-direction: column;
+}
+
+#videos .items .item {
+    width: 100%;
+}
+
+.linkies .linkie{
+    flex-direction: column;
+}

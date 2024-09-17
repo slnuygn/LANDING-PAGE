@@ -1,0 +1,84 @@
+/* Text */
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-large {
+    font-size: 1.75rem;
+}
+
+/* Colors */
+
+.bg-mildly-egg {
+    background: rgb(140, 106, 139);
+}
+
+.bg-eggplant{
+    background: rgb(26, 6, 31);
+}
+
+/* Buttons */
+
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.btn-primary {
+    background: rgb(140, 106, 139);
+    border: 1px solid rgb(140, 106, 139);
+}
+
+.btn-primary:hover, .btn-dark:hover  {
+    color: rgb(26, 6, 31);
+    border: 1px solid rgb(26, 6, 31);
+    background: white;
+}
+
+.btn-dark {
+    color: white;
+    background: rgb(26, 6, 31); 
+    border: 1px solid rgb(26, 6, 31);
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+/* Container */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+/* Forms */
+
+.form-group {
+    padding: 0.25rem 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}

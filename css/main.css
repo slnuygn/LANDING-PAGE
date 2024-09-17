@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Navigation Bar  */
+
+#navbar {
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background: rgb(140, 106, 139);
+    color: rgb(26, 6, 31);
+    border-radius: 2px;
+}
+
+/* Home Section  */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img {
+    /* max-width: 100%; */
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+}
+
+/* #home .name {
+    text-align: center;
+} */
+
+#home .name h2 {
+    margin-bottom: 0.25rem;
+}
+
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* Videos */
+
+#videos {
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+#videos .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#videos .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+} 
+
+#videos .items .item:hover {
+    opacity: 0.7;
+}
+
+/* Links */
+
+#links {
+    color: rgb(26, 6, 31);
+    padding: 1rem;
+}
+
+.linkies{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.linkies .linkie {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.linkies .linkie .linkie-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.linkies .linkie .linkie-image img {
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.linkies .linkie .linkie-image span {
+    background: rgb(26, 6, 31, 0.6);
+    color: whitesmoke;
+    padding: 0.25rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.linkies .linkie .linkie-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.linkies .linkie .linkie-info .description {
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+}
+
+.linkies .linkie .linkie-info .instructor {
+    margin-bottom: 0.25rem;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.linkies .linkie .linkie-info .likes {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+
+}
+
+.linkies .linkie .linkie-info .likes i {
+    color:darkred;
+}
+
+/* ContactMe */
+
+#contactme {
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+#contactme .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contactme .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contactme .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contactme .contact-form ul li a:hover {
+    opacity: 0.7;
+}
+
+#contactme .contact-form button:hover {
+    opacity: 0.7;
+}
